@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7EFFA">
+
+    <!-- 회원가입 버튼-->
+    <Button
+        android:id="@+id/joinbtn"
+        android:layout_width="331dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/colorbutton_round"
+        android:text="회원가입"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- 뒤로가기 버튼 -->
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/outline_arrow_back_ios_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="17dp"
+        android:text="회원가입 하기"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/backbtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 학번 입력칸 -->
+    <EditText
+        android:id="@+id/stdnum"
+        android:layout_width="330dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/basic_edittext"
+        android:ems="10"
+        android:hint=" 학번"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 블랙보드 비밀번호 입력칸 -->
+    <EditText
+        android:id="@+id/blackboardpw"
+        android:layout_width="330dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/basic_edittext"
+        android:ems="10"
+        android:hint=" 블랙보드 비밀번호"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stdnum" />
+
+    <!-- 닉네임 입력칸 -->
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="330dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/basic_edittext"
+        android:ems="10"
+        android:hint=" 닉네임"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blackboardpw" />
+
+    <!-- 아이디 입력칸 -->
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="330dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/basic_edittext"
+        android:ems="10"
+        android:hint=" 아이디"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nickname" />
+
+    <!-- 비밀번호 입력칸 -->
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="330dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/basic_edittext"
+        android:ems="10"
+        android:hint=" 비밀번호"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id" />
+
+    <!-- 비밀번호 재확인 입력칸 -->
+    <EditText
+        android:id="@+id/reconfirmpw"
+        android:layout_width="330dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/basic_edittext"
+        android:ems="10"
+        android:hint=" 비밀번호 재확인"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pw" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
