@@ -5,24 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--mypage로 가는 버튼-->
-    <ImageButton
-        android:id="@+id/mybtn"
-        android:layout_width="44dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/outline_arrow_back_ios_24"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.929"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ImageButton>
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="580dp"
+        android:layout_height="651dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp">
+        app:layout_constraintVertical_bias="0.01"
+        tools:layout_editor_absoluteX="1dp">
+
+        <!--리스트뷰로 과목들 글 정보 받아오기-->
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
 
     </LinearLayout>
 

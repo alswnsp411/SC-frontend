@@ -12,12 +12,17 @@
         <entry key="..\:/Users/kmj/AndroidStudioProjects/SoftwareCommunity/app/src/main/res/layout/activity_join.xml" value="0.33" />
         <entry key="..\:/Users/kmj/AndroidStudioProjects/SoftwareCommunity/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/kmj/AndroidStudioProjects/SoftwareCommunity/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_custom_comment.xml" value="0.13698284561049445" />
+        <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_detail.xml" value="0.13698284561049445" />
         <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_home.xml" value="0.2864583333333333" />
         <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_join.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_list.xml" value="0.33" />
         <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_login.xml" value="0.2864583333333333" />
         <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_main.xml" value="0.2864583333333333" />
         <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_manage_obj.xml" value="0.33" />
         <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_my.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/kmj/SC-frontend/app/src/main/res/layout/activity_subjects.xml" value="0.2864583333333333" />
       </map>
     </option>
   </component>
